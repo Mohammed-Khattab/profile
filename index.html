@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="Mohammed Khattab, CE, Computer Engineer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <title>Mohammed Khattab</title>
+  </head>
+  <body>
+    <div class="container display-flex-row">
+      <div class="sidebar col-3 col-s-3">
+        <div id="social-icons" class="display-flex-row justify-around">
+          <a href="https://www.facebook.com/mohammed.khattab.37/"><i class="fab fa-facebook-f fa-lg"></i></a>
+          <a><i class="fab fa-twitter fa-lg"></i></a>
+          <a><i class="fab fa-google-plus-g fa-lg"></i></a>
+          <a><i class="fas fa-phone-alt fa-lg"></i></a>
+          <a
+            ><i
+              id="btnClose"
+              class="fas fa-times fa-lg"
+              onclick="toggleSideBar()"
+            ></i
+          ></a>
+        </div>
+        <div id="personal">
+          <img
+            id="personalImg"
+            src="images/m-khattab.jpeg"
+            alt="Personal Image (M.Khattab)"
+          />
+          <h4 style="text-align: center;">Mohammed Khattab</h4>
+          <div style="width: 100%; text-align: center;">Computer Engineer</div>
+        </div>
+        <div id="navigation">
+          <nav
+            class="display-flex-column justify-around"
+            onclick="toggleSideBar()"
+          >
+            <a href="#mainContent"><i class="fas fa-home"></i> Home</a>
+            <a href="#skills"><i class="fas fa-lightbulb"></i>&nbsp; Skills</a>
+            <a href="#experience"
+              ><i class="fas fa-briefcase"></i> Experience</a
+            >
+            <a href="#education"><i class="fas fa-university"></i> Education</a>
+            <a href="#courses"
+              ><i class="fas fa-certificate"></i> Courses & Conferences</a
+            >
+            <a href="#languages"><i class="fas fa-language"></i>Languages</a>
+          </nav>
+        </div>
+      </div>
+      <div id="mainContent" class="main col-s-9 col-9 col-s-12 col-12">
+        <div id="home" class="header">
+          <i class="bars fas fa-bars" onclick="toggleSideBar()"></i>
+          <img id="header-bg" src="images/bg-header.png" alt="background" />
+          <div id="header-content">
+            <img
+              id="headerPerImg"
+              src="images/m-khattab.jpeg"
+              alt="Personal Image (M.Khattab)"
+            />
+            <div style="text-align: center;">Hi, I'm</div>
+            <h1>Mohammed Khattab</h1>
+            <h3 style="color: #2b7a78; text-align: center; width: 100%;">
+              Computer Engineer
+            </h3>
+
+            <nav id="header-nav" class="sticky display-flex-row justify-center">
+              <a href="#mainContent"><i class="fas fa-home"></i> Home</a>
+              <a href="#skills"><i class="fas fa-lightbulb"></i> Skills</a>
+              <a href="#experience"
+                ><i class="fas fa-briefcase"></i> Experience</a
+              >
+              <a href="#education"
+                ><i class="fas fa-university"></i> Education</a
+              >
+              <a href="#courses"
+                ><i class="fas fa-certificate"></i> Courses & Conferences</a
+              >
+              <a href="#languages"><i class="fas fa-language"></i>Languages</a>
+            </nav>
+          </div>
+        </div>
+
+        <div id="about" class="padding border-bottom sec">
+          <br/><br/><br/>
+          <h2 class="padding"><i class="fas fa-user padding"></i> About</h2>
+          <p class="padding">
+            With the grace of God, graduated from AlBaha University with
+            Bachelor of Computer Engineering and First Class Honors with a GBA
+            of 3.99 (out of 4.00) . Have an experience in Technical Support (IT
+            Support) and Lecturing & Training in educational centers .
+          </p>
+        </div>
+
+        <div id="skills" class="padding border-bottom sec">
+          <br/><br/><br/>
+          <h2 class="padding">
+            <i class="fas fa-lightbulb padding"></i> Skills
+          </h2>
+          <div class="display-flex-row justify-around padding">
+            <div class="display-flex-column col-4">
+              <label
+                ><i class="fas fa-microchip"></i> Embedded Systems
+                <span>95%</span>
+              </label>
+              <progress max="100" value="95"></progress>
+            </div>
+            <div class="display-flex-column col-4">
+              <label
+                ><i class="fas fa-laptop-code"></i> Arduino <span>90%</span>
+              </label>
+              <progress max="100" value="90"></progress>
+            </div>
+            <div class="display-flex-column col-4">
+              <label
+                ><i class="fas fa-code"></i> Front-end Web development
+                <span>65%</span>
+              </label>
+              <progress max="100" value="65"></progress>
+            </div>
+            <div class="display-flex-column col-4">
+              <label
+                ><i class="fas fa-headset"></i> Technical Support
+                <span>70%</span></label
+              >
+              <progress max="100" value="70"></progress>
+            </div>
+            <div class="display-flex-column col-4">
+              <label
+                ><i class="fab fa-microsoft"></i> MS Office 365
+                <span>90%</span></label
+              >
+              <progress max="100" value="90"></progress>
+            </div>
+            <div class="display-flex-column col-4">
+              <label
+                ><i class="fas fa-check-circle"></i> Problem Solving
+                <span>85%</span></label
+              >
+              <progress max="100" value="85"></progress>
+            </div>
+            <div class="display-flex-column col-4">
+              <label
+                ><i class="fas fa-atom"></i> Creativity <span>85%</span></label
+              >
+              <progress max="100" value="85"></progress>
+            </div>
+            <div class="display-flex-column col-4">
+              <label
+                ><i class="fas fa-user-tie"></i> Leadership
+                <span>90%</span></label
+              >
+              <progress max="100" value="90"></progress>
+            </div>
+            <div class="display-flex-column col-4">
+              <label
+                ><i class="fas fa-users"></i> Teamwork <span>95%</span></label
+              >
+              <progress max="100" value="95"></progress>
+            </div>
+          </div>
+        </div>
+
+        <div id="experience" class="padding border-bottom sec">
+          <br/><br/><br/>
+          <h2 class="padding">
+            <i class="fas fa-briefcase padding"></i> Experiences
+          </h2>
+          <ul class="display-flex-row justify-around">
+            <li class="col-5 padding card">
+              May, 2019 - Mar, 2020
+              <h3 class="padding">Technical Support</h3>
+              <ul>
+                <li class="padding-left">
+                  Maintenance, Trouble shooting and Problem Solving .
+                </li>
+              </ul>
+            </li>
+            <li class="col-5 padding card">
+              Jan, 2019 - Apr, 2019
+              <h3 class="padding">Lecture & Trainer</h3>
+              <ul>
+                <li class="padding-left">in educational workshops and centers .</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <div id="education" class="padding border-bottom sec">
+          <br/><br/><br/>
+          <h2 class="padding">
+            <i class="fas fa-university padding"></i> Education
+          </h2>
+          <ul class="display-flex-row justify-around">
+            <li class=" padding card">
+              2015 - 2020
+              <h3 class="padding">University of AlBaha</h3>
+              <ul>
+                <li class="padding-left">
+                  Bachelor of Computer Engineering .
+                </li>
+              </ul>
+              <img class="center" src="images/baha-univ.jpg" alt="AlBaha Univ"/>
+            </li>
+          </ul>
+        </div>
+
+        <div id="courses" class="padding border-bottom sec">
+          <br/><br/><br/>
+          <h2 class="padding">
+            <i class="fas fa-certificate padding"></i> Courses & Conferences
+          </h2>
+        </div>
+
+        <div id="languages" class="padding sec">
+          <br/><br/><br/>
+          <h2 class="padding">
+            <i class="fas fa-language padding"></i> Languages
+          </h2>
+          <ul class="display-flex-column justify-around card">
+            <li class=" padding">Arabic (native language) .</li>
+            <li class=" padding">English .</li>
+          </ul>
+        </div>
+        <div class="footer padding">
+          Copyright <i class="far fa-copyright"></i> 2020 Mohammed Khattab.<br/> All rights reserved.
+          <p><i class="fas fa-phone-alt fa-lg"></i>&nbsp; + 966554378337 </p>
+          <div class="display-flex-row justify-center">
+            <a href="https://www.facebook.com/mohammed.khattab.37/"><i class="fab fa-facebook-f fa-lg"></i></a>
+            <a><i class="fab fa-twitter fa-lg"></i></a>
+            <a><i class="fab fa-google-plus-g fa-lg"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pageProgressContainer">
+      <div id="pageProgressBar" class="pageProgressBar"></div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
