@@ -339,9 +339,6 @@ progress::-webkit-progress-bar {
   h2 {
     font-size: 2rem;
   }
-  .footer {
-    height: 20vh;
-  }
   .header {
     height: 50vh;
     top: -43vh;
