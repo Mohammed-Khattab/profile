@@ -343,8 +343,8 @@ progress::-webkit-progress-bar {
     height: 20vh;
   }
   .header {
-    height: 45vh;
-    top: -38vh;
+    height: 50vh;
+    top: -43vh;
   }
   .bars {
     display: none;
